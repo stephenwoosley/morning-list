@@ -1,0 +1,31 @@
+.btn {
+  background-color: #B560E4;
+}
+
+.flex-add-button {
+  margin-top: 2.5%;
+}
+
+/* label focus color */
+.input-field input[type=text]:focus + label {
+     color: #48CDB6;
+}
+/* label underline focus color */
+.input-field input[type=text]:focus {
+     border-bottom: 1px solid #48CDB6;
+     box-shadow: 0 1px 0 0 #48CDB6;
+}
+
+/* label focus color */
+.input-field input[type=text] + label {
+     color: #FCFCFC;
+}
+/* label underline focus color */
+.input-field input[type=text] {
+     border-bottom: 1px solid #FCFCFC;
+     box-shadow: 0 1px 0 0 #FCFCFC;
+}
+
+.row {
+  text-align: center;
+}

@@ -1,0 +1,38 @@
+.listItem {
+  background-color: #28E7E5;
+  /*border: 2px solid #2D2D2D;*/
+  border-radius: 2px;
+  margin: 10px 10px 10px -25px;
+  /*padding: 20px 0px 20px 20px;*/
+  padding: 1.75%;
+  color: #ffffff;
+}
+
+button {
+  color: #ffffff;
+  background-color: #B560E4;
+}
+
+.btn:hover {
+   background-color: white;
+   color: #B560E4;
+}
+
+.priority-color {
+  width: 15px;
+  height: 15px;
+  /*background-color: red;*/
+  border-radius: 50%;
+}
+
+h2 {
+  margin: 0 0 0 0;
+}
+
+.flex {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /*align-items: center;*/
+  height: 34px;
+}
